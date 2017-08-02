@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SipApp</string>
+    <string name="title_activity_make_call">MakeCallActivity</string>
 </resources>
