@@ -54,7 +54,6 @@
             android:name=".Activitis.CallActivity"
             android:label="@string/title_activity_make_call"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Activitis.ReceiveCallActivity"></activity>
 
         <service
             android:name="org.abtollc.service.ABTOSipService"

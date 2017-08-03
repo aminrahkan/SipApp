@@ -10,8 +10,6 @@ import org.abtollc.sdk.AbtoPhone;
 import org.abtollc.sdk.OnIncomingCallListener;
 
 import aminrahkan7.sipapp.Activitis.CallActivity;
-import aminrahkan7.sipapp.Activitis.MainActivity;
-import aminrahkan7.sipapp.Activitis.ReceiveCallActivity;
 
 public class IncomingCallService extends Service implements OnIncomingCallListener {
 
