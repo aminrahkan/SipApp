@@ -4,31 +4,46 @@
 
     <uses-sdk android:minSdkVersion="9" />
 
-    <uses-permission android:name="android.permission.USE_SIP" />
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.CONFIGURE_SIP" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /><!-- android 4-->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" /><!-- android 4-->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /><!-- speaker mode-->
 
     <uses-feature
-        android:name="android.hardware.sip.voip"
-        android:required="true" />
-    <uses-feature
         android:name="android.hardware.wifi"
-        android:required="true" />
+        android:required="false" />
     <uses-feature
         android:name="android.hardware.microphone"
         android:required="true" />
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false" />
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activitis.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,9 +51,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MakeCallActivity"
+            android:name=".Activitis.CallActivity"
             android:label="@string/title_activity_make_call"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activitis.ReceiveCallActivity"></activity>
+
+        <service
+            android:name="org.abtollc.service.ABTOSipService"
+            android:exported="true"
+            android:stopWithTask="true">
+            <intent-filter>
+                <action android:name="org.abtollc.service.ABTOSipService" />
+                <action android:name="org.abtollc.service.SipConfiguration" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Services.IncomingCallService"
+            android:enabled="true"></service>
     </application>
 
 </manifest>
