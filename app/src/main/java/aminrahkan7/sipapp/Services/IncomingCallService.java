@@ -36,6 +36,7 @@ public class IncomingCallService extends Service implements OnIncomingCallListen
         Intent i = CallActivity.newInstance(getApplicationContext(), true);
         i.putExtra(AbtoPhone.REMOTE_CONTACT, remoteContact);
         i.putExtra(CallActivity.CALL_ID, abtoPhone.getActiveCallId());
+        i.putExtra(AbtoPhone.REMOTE_CONTACT, remoteContact);
         i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);
     }

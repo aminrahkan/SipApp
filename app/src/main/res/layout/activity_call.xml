@@ -16,7 +16,7 @@
         android:src="@drawable/avatar_1_120dp" />
 
     <TextView
-        android:id="@+id/callee_name"
+        android:id="@+id/caller_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/callee_avatar"
@@ -29,7 +29,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/callee_name"
+        android:layout_below="@id/caller_name"
         android:layout_centerHorizontal="true">
 
         <LinearLayout

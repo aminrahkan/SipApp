@@ -35,6 +35,8 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
     private int activeCallId = AbtoPhone.INVALID_CALL_ID;
     private boolean speakerOn = false;
     private ImageButton btnSpeaker;
+    private String remoteContact;
+    private TextView caller_name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +55,9 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
         Bundle bundle = getIntent().getExtras();
         callType = bundle.getBoolean(CALL_INTENT);
         activeCallId = bundle.getInt(CALL_ID);
+        remoteContact = getIntent().getStringExtra(AbtoPhone.REMOTE_CONTACT);
+
+
         initViews();
 
 
@@ -94,6 +99,7 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
         deny_call_button = findViewById(R.id.deny_call_button);
         accept_call_button = findViewById(R.id.accept_call_button);
         btnSpeaker = findViewById(R.id.btnSpeaker);
+        caller_name = findViewById(R.id.caller_name);
 
         if (callType) {//inComingCall
             accept_call_button.setVisibility(ImageButton.VISIBLE);
@@ -103,6 +109,8 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
             accept_call_button.setVisibility(ImageButton.GONE);
             deny_call_button.setVisibility(ImageButton.VISIBLE);
         }
+
+        caller_name.setText(remoteContact);
 
 
     }
