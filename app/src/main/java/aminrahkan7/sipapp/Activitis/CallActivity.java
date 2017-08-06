@@ -25,18 +25,28 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
 
     private AbtoPhone abtoPhone;
     int accExpire;
+
+
+    //Views
     private TextView call_status;
     private TextView call_timer;
-    private static String CALL_INTENT = "inComingCall";// false outGoingCall , true inComingCall
-    private boolean callType;
     private ImageButton deny_call_button;
     private ImageButton accept_call_button;
-    public static final String CALL_ID = "call_id";
-    private int activeCallId = AbtoPhone.INVALID_CALL_ID;
-    private boolean speakerOn = false;
     private ImageButton btnSpeaker;
-    private String remoteContact;
     private TextView caller_name;
+
+    public static final String CALL_ID = "call_id";
+
+
+    private boolean speakerOn = false;
+
+
+    //intents
+    public static final String CALL_INTENT = "inComingCall";// false outGoingCall , true inComingCall
+    public static final String SIP_NAME = "sip_name";
+    private boolean callType;
+    private int activeCallId = AbtoPhone.INVALID_CALL_ID;
+    private String remoteContact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,8 +76,14 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
 
         int accId = (int) abtoPhone.getCurrentAccountId();
         accExpire = abtoPhone.getConfig().getAccountExpire(accId);
+
         try {
-            abtoPhone.startCall("sip:tsit@sip.linphone.org", abtoPhone.getCurrentAccountId());
+            if (!callType) {
+                if (bundle.containsKey(SIP_NAME)) {
+                    String sip_name = bundle.getString(SIP_NAME);
+                    abtoPhone.startCall("sip:" + sip_name + "@sip.linphone.org", abtoPhone.getCurrentAccountId());
+                }
+            }
 
         } catch (RemoteException e) {
             e.printStackTrace();
@@ -86,6 +102,7 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
 //        abtoPhone.setToneReceiveListener(this);
     }
 
+    //done
     public static Intent newInstance(Context context, boolean callType) {
 
         Intent intent = new Intent(context, CallActivity.class);
