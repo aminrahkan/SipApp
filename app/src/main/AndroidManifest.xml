@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="aminrahkan7.sipapp">
 
-    <uses-sdk android:minSdkVersion="9" />
-
+    <uses-sdk android:minSdkVersion="14" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -13,11 +12,11 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.USE_SIP" />
-    <uses-permission android:name="android.permission.CONFIGURE_SIP" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" /><!-- android 4-->
     <uses-permission android:name="android.permission.WRITE_SETTINGS" /><!-- android 4-->
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /><!-- speaker mode-->
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.CONFIGURE_SIP" />
 
     <uses-feature
         android:name="android.hardware.wifi"
