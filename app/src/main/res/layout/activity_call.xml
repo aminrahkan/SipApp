@@ -23,7 +23,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
         android:text="Amin Rahkan"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="22sp" />
 
     <RelativeLayout
@@ -53,7 +53,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="5dp"
                 android:text="Dialing"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -65,7 +65,7 @@
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/status_linear_layout"
             android:text="..."
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="16sp" />
     </RelativeLayout>
 
@@ -117,7 +117,7 @@
         android:layout_gravity="center_vertical"
         android:layout_marginBottom="59dp"
         android:text="0:00"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="25sp"
         android:visibility="gone" />
 
