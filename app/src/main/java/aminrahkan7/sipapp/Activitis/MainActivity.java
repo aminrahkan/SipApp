@@ -124,11 +124,6 @@ public class MainActivity extends AppCompatActivity implements OnInitializeListe
             case SUCCESS:
                 abtoRegister = true;
                 Log.i("SipTest", "SUCCESS");
-                //Intent intent = new Intent(this, RegisterActivity.class);
-                //startActivity(intent);
-                //finish();
-//                registerUser();
-
 
                 break;
 
@@ -144,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements OnInitializeListe
     }//onDestroy
 
     public void registerUser() {
-//        try {
+        try {
 
             if (abtoRegister) {
                 String sipServerAddress = edServerAddress.getText().toString();
@@ -185,18 +180,22 @@ public class MainActivity extends AppCompatActivity implements OnInitializeListe
                         tvRegisterState.setText("Not Register ...");
                         tvRegisterState.setTextColor(Color.RED);
                         Log.e("SipTest", "registerUser fail status code " + statusCode + " " + statusText);
-//                    registerUser();
                     }
 
                     public void onRegistered(long accId) {
 
                         Log.e("SipTest", "registerUser register");
 
+                        ReadyToCall = true;
+                        sipRegister = true;
                         //Unsubscribe reg events
                         abtoPhone.setRegistrationStateListener(null);
 
-                        tvRegisterState.setText("Register ...");
+                        tvRegisterState.setText("Register ok ...");
                         tvRegisterState.setTextColor(Color.GREEN);
+
+                        tvCallStatus.setText("Ready to Call ...");
+                        tvCallStatus.setTextColor(Color.GREEN);
                         //Start incoming call service
 
                         startReceiveSipCallService();
@@ -211,10 +210,9 @@ public class MainActivity extends AppCompatActivity implements OnInitializeListe
                     }
                 }); //registration listener
             }
-//        } catch (Exception e) {
-//            Log.e("SipTest", "registerUser exeption: " + e.getMessage());
-//
-//        }
+        } catch (Exception e) {
+            Log.e("SipTest", "registerUser exeption: " + e.getMessage());
+        }
 
     }
 
