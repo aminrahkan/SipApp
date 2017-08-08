@@ -18,10 +18,13 @@ import org.abtollc.sdk.AbtoApplication;
 import org.abtollc.sdk.AbtoPhone;
 import org.abtollc.sdk.OnCallConnectedListener;
 import org.abtollc.sdk.OnCallDisconnectedListener;
+import org.abtollc.sdk.OnCallHeldListener;
+import org.abtollc.sdk.OnRemoteAlertingListener;
+import org.abtollc.sdk.OnToneReceivedListener;
 
 import aminrahkan7.sipapp.R;
 
-public class CallActivity extends AppCompatActivity implements OnCallConnectedListener, OnCallDisconnectedListener {
+public class CallActivity extends AppCompatActivity implements OnCallConnectedListener, OnCallDisconnectedListener, OnCallHeldListener, OnRemoteAlertingListener, OnToneReceivedListener {
 
     private AbtoPhone abtoPhone;
     int accExpire;
@@ -97,9 +100,9 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
     private void initListeners() {
         abtoPhone.setCallConnectedListener(this);
         abtoPhone.setCallDisconnectedListener(this);
-//        abtoPhone.setOnCallHeldListener(this);
-//        abtoPhone.setRemoteAlertingListener(this);
-//        abtoPhone.setToneReceiveListener(this);
+        abtoPhone.setOnCallHeldListener(this);
+        abtoPhone.setRemoteAlertingListener(this);
+        abtoPhone.setToneReceiveListener(this);
     }
 
     //done
@@ -209,9 +212,9 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
 
         abtoPhone.setCallConnectedListener(null);
         abtoPhone.setCallDisconnectedListener(null);
-//        abtoPhone.setOnCallHeldListener(null);
-//        abtoPhone.setRemoteAlertingListener(null);
-//        abtoPhone.setToneReceiveListener(null);
+        abtoPhone.setOnCallHeldListener(null);
+        abtoPhone.setRemoteAlertingListener(null);
+        abtoPhone.setToneReceiveListener(null);
     }
 
     public void changeSpeakerStatus(View view) {
@@ -228,6 +231,21 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
             abtoPhone.setSpeakerphoneOn(speakerOn);
         } catch (RemoteException e) {
         }
+
+    }
+
+    @Override
+    public void onCallHeld(HoldState holdState) {
+
+    }
+
+    @Override
+    public void onRemoteAlerting(long l, int i) {
+
+    }
+
+    @Override
+    public void onToneReceived(char c) {
 
     }
 }
