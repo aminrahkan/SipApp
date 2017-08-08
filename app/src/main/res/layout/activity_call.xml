@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary_violet"
+    android:background="@color/color_white"
     tools:context=".Activitis.CallActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -13,7 +13,7 @@
         android:layout_height="120dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:src="@drawable/avatar_1_120dp" />
+        android:src="@drawable/avatar_120dp" />
 
     <TextView
         android:id="@+id/caller_name"
