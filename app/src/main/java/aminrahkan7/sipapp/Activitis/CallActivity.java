@@ -46,7 +46,7 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
 
     //intents
     public static final String CALL_INTENT = "inComingCall";// false outGoingCall , true inComingCall
-    public static final String SIP_NAME = "sip_name";
+    public static final String SIP_NAME_TO_CALL = "sip_name";
     private boolean callType;
     private int activeCallId = AbtoPhone.INVALID_CALL_ID;
     private String remoteContact;
@@ -70,20 +70,17 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
         activeCallId = bundle.getInt(CALL_ID);
         remoteContact = getIntent().getStringExtra(AbtoPhone.REMOTE_CONTACT);
 
-
         initViews();
 
-
         abtoPhone = ((AbtoApplication) getApplication()).getAbtoPhone();
-
 
         int accId = (int) abtoPhone.getCurrentAccountId();
         accExpire = abtoPhone.getConfig().getAccountExpire(accId);
 
         try {
             if (!callType) {
-                if (bundle.containsKey(SIP_NAME)) {
-                    String sip_name = bundle.getString(SIP_NAME);
+                if (bundle.containsKey(SIP_NAME_TO_CALL)) {
+                    String sip_name = bundle.getString(SIP_NAME_TO_CALL);
                     abtoPhone.startCall("sip:" + sip_name + "@sip.linphone.org", abtoPhone.getCurrentAccountId());
                 }
             }
@@ -91,7 +88,6 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
         } catch (RemoteException e) {
             e.printStackTrace();
         }
-
 
         initListeners();
 
@@ -161,8 +157,8 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
 
     @Override
     public void onCallConnected(String remoteContact) {
-        Log.i("sip -->", "onCallConnected: ");
 
+        Log.i("sip -->", "onCallConnected: ");
         this.accept_call_button.setVisibility(View.GONE);
         this.call_timer.setVisibility(View.VISIBLE);
 
