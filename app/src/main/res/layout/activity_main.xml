@@ -1,23 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="aminrahkan7.sipapp.Activitis.MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnInitDefaultValues"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Call"
-        android:onClick="callClicked"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="8dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="initDefaultValues"
+        android:text="Default Values" />
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/edServerAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="SIP Server Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edSipUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="SIP Username to register"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edSipPassToRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="SIP pass to register"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edSipUserToCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="SIP Username to call"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="registerClicked"
+            android:text="Register" />
+
+        <TextView
+            android:id="@+id/tvRegisterState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:text="Not Register ..."
+            android:textColor="#ff0000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="callClicked"
+            android:text="Call" />
+
+        <TextView
+            android:id="@+id/tvCallStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:text="Not Ready to call ..."
+            android:textColor="#ff0000" />
+    </LinearLayout>
+
+</LinearLayout>
