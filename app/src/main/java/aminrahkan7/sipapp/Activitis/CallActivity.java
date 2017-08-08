@@ -50,6 +50,7 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
     private boolean callType;
     private int activeCallId = AbtoPhone.INVALID_CALL_ID;
     private String remoteContact;
+    private String sip_name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,9 +67,18 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
         setContentView(R.layout.activity_call);
 
         Bundle bundle = getIntent().getExtras();
-        callType = bundle.getBoolean(CALL_INTENT);
-        activeCallId = bundle.getInt(CALL_ID);
-        remoteContact = getIntent().getStringExtra(AbtoPhone.REMOTE_CONTACT);
+
+        if (bundle.containsKey(CALL_INTENT))
+            callType = bundle.getBoolean(CALL_INTENT);
+
+        if (bundle.containsKey(CALL_ID))
+            activeCallId = bundle.getInt(CALL_ID);
+
+        if (bundle.containsKey(AbtoPhone.REMOTE_CONTACT))
+            remoteContact = bundle.getString(AbtoPhone.REMOTE_CONTACT);
+
+        if (bundle.containsKey(SIP_NAME_TO_CALL))
+            sip_name = bundle.getString(SIP_NAME_TO_CALL);
 
         initViews();
 
@@ -79,10 +89,9 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
 
         try {
             if (!callType) {
-                if (bundle.containsKey(SIP_NAME_TO_CALL)) {
-                    String sip_name = bundle.getString(SIP_NAME_TO_CALL);
-                    abtoPhone.startCall("sip:" + sip_name + "@sip.linphone.org", abtoPhone.getCurrentAccountId());
-                }
+
+                abtoPhone.startCall("sip:" + sip_name + "@sip.linphone.org", abtoPhone.getCurrentAccountId());
+
             }
 
         } catch (RemoteException e) {
@@ -120,13 +129,12 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
         if (callType) {//inComingCall
             accept_call_button.setVisibility(ImageButton.VISIBLE);
             deny_call_button.setVisibility(ImageButton.VISIBLE);
-
+            caller_name.setText(remoteContact);
         } else {
             accept_call_button.setVisibility(ImageButton.GONE);
             deny_call_button.setVisibility(ImageButton.VISIBLE);
+            caller_name.setText(sip_name);
         }
-
-        caller_name.setText(remoteContact);
 
 
     }
