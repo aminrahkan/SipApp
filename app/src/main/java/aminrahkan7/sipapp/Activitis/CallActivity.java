@@ -6,13 +6,14 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.RemoteException;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import org.abtollc.sdk.AbtoApplication;
 import org.abtollc.sdk.AbtoPhone;
@@ -107,7 +108,7 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
         abtoPhone.setCallDisconnectedListener(this);
         abtoPhone.setOnCallHeldListener(this);
         abtoPhone.setRemoteAlertingListener(this);
-        abtoPhone.setToneReceiveListener(this);
+        abtoPhone.setToneReceivedListener(this);
     }
 
     //done
@@ -156,7 +157,7 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
     public void pickUpClicked(View view) {
 
         try {
-            abtoPhone.answerCall(200);
+            abtoPhone.answerCall(200,false);
         } catch (RemoteException e) {
 
         }
@@ -218,7 +219,7 @@ public class CallActivity extends AppCompatActivity implements OnCallConnectedLi
         abtoPhone.setCallDisconnectedListener(null);
         abtoPhone.setOnCallHeldListener(null);
         abtoPhone.setRemoteAlertingListener(null);
-        abtoPhone.setToneReceiveListener(null);
+        abtoPhone.setToneReceivedListener(null);
     }
 
     public void changeSpeakerStatus(View view) {

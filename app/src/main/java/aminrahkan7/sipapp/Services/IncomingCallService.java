@@ -3,15 +3,17 @@ package aminrahkan7.sipapp.Services;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
+import android.os.RemoteException;
 import android.util.Log;
 
 import org.abtollc.sdk.AbtoApplication;
 import org.abtollc.sdk.AbtoPhone;
 import org.abtollc.sdk.OnIncomingCallListener;
+import org.abtollc.sdk.OnInitializeListener;
 
 import aminrahkan7.sipapp.Activitis.CallActivity;
 
-public class IncomingCallService extends Service implements OnIncomingCallListener {
+public class IncomingCallService extends Service implements OnIncomingCallListener , OnInitializeListener {
 
     private AbtoPhone abtoPhone;
 
@@ -39,5 +41,22 @@ public class IncomingCallService extends Service implements OnIncomingCallListen
         i.putExtra(AbtoPhone.REMOTE_CONTACT, remoteContact);
         i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);
+    }
+
+    @Override
+    public void onInitializeState(OnInitializeListener.InitializeState state, String message) {
+        if (state != InitializeState.SUCCESS) return;
+
+//        long accId = abtoPhone.getConfig().addAccount(RegisterActivity.RegDomain, null, RegisterActivity.RegUser, RegisterActivity.RegPassword, null, "", 300, false);
+//
+//        //Register
+//        try
+//        {
+//            abtoPhone.register();
+//        }
+//        catch (RemoteException ex)
+//        {
+//            ex.printStackTrace();
+//        }
     }
 }
