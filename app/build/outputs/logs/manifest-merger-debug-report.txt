@@ -1,0 +1,348 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:1-79:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nic/.gradle/caches/transforms-3/f06aebf0b0c854b48adfbf120800f602/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/nic/.gradle/caches/transforms-3/74292be9cb686a095a4a0d900254dd59/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nic/.gradle/caches/transforms-3/f3644ad778acb0eb375e8afe4ed552de/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/nic/.gradle/caches/transforms-3/cb66e461fd9e99575bb56695f00506ab/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/nic/.gradle/caches/transforms-3/a32586e00cf6a571820e33c673775d10/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nic/.gradle/caches/transforms-3/ac87de689570b23ff7f65fd6b42a6b67/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/nic/.gradle/caches/transforms-3/27061b85e2d5a3b43a0523a4635c520f/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nic/.gradle/caches/transforms-3/4dc2d7de2e36c1331823605ddccab851/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nic/.gradle/caches/transforms-3/e68bd84e89a1199c0e0bb7915ca54e8d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nic/.gradle/caches/transforms-3/d7bfb4d57ba25c58c1ed4e8afb52dc48/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nic/.gradle/caches/transforms-3/131fc640a9fa001c570148d810d62306/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/nic/.gradle/caches/transforms-3/b66392aab3503f262d51176d47eb3cda/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] /Users/nic/.gradle/caches/transforms-3/49e7ac19d247264e5ea3dec22f6d785c/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nic/.gradle/caches/transforms-3/c43c9b4a545f55777384264abc4e7039/transformed/jetified-circleimageview-3.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nic/.gradle/caches/transforms-3/36325408cec9ed0dd0d5d908fc64e1b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nic/.gradle/caches/transforms-3/ba5c646dbbc9b110b0bbc2352c403cb8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nic/.gradle/caches/transforms-3/a80264089550c9371acb9d2f7d48c329/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nic/.gradle/caches/transforms-3/f08aa1569562031982a90915b0d403c6/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nic/.gradle/caches/transforms-3/1ed904a454eeea36eb9dca6ec8205ae4/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nic/.gradle/caches/transforms-3/cd9cd29673892a0e2248638b2c2d4621/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nic/.gradle/caches/transforms-3/4d096289f706d6915eed658ad09fa4f8/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nic/.gradle/caches/transforms-3/490e1edacc633f6009a0c863dd73bafe/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nic/.gradle/caches/transforms-3/aa032f33b1d34c08ed370a72f750a373/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nic/.gradle/caches/transforms-3/3b6ee467fac90b27cde8f39b2bba82a2/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nic/.gradle/caches/transforms-3/063e8774a5ccd067d6cad35d29bac916/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nic/.gradle/caches/transforms-3/9e495b0e9f7cb70c1ccd9a8c2fa3dac5/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nic/.gradle/caches/transforms-3/56b1aaac53fce27f3a58c0d828bab898/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.CAMERA
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:14:5-64
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:14:22-62
+uses-permission#android.permission.USE_SIP
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:15:22-63
+uses-permission#android.permission.CONFIGURE_SIP
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:16:22-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:17:5-74
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:18:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:19:22-63
+uses-feature#android.hardware.wifi
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:22:5-94
+	android:required
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:22:68-92
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:22:19-55
+uses-feature#android.hardware.microphone
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:23:5-93
+	android:required
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:23:68-91
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:23:19-61
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:24:5-94
+	android:required
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:24:68-92
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:24:19-62
+uses-feature#android.hardware.bluetooth
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:25:5-94
+	android:required
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:25:68-92
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:25:19-60
+uses-feature#android.hardware.screen.portrait
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:26:5-94
+	android:required
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:26:68-92
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:26:19-66
+uses-feature#android.hardware.camera
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:27:5-94
+	android:required
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:27:68-92
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:27:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:28:5-94
+	android:required
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:28:68-92
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:28:19-67
+uses-feature#android.hardware.camera.flash
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:29:5-94
+	android:required
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:29:68-92
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:29:19-63
+uses-feature#android.hardware.camera.front
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:30:5-94
+	android:required
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:30:68-92
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:30:19-63
+application
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:34:5-77:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nic/.gradle/caches/transforms-3/f06aebf0b0c854b48adfbf120800f602/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nic/.gradle/caches/transforms-3/f06aebf0b0c854b48adfbf120800f602/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.8.0] /Users/nic/.gradle/caches/transforms-3/49e7ac19d247264e5ea3dec22f6d785c/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/nic/.gradle/caches/transforms-3/49e7ac19d247264e5ea3dec22f6d785c/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nic/.gradle/caches/transforms-3/c43c9b4a545f55777384264abc4e7039/transformed/jetified-circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nic/.gradle/caches/transforms-3/c43c9b4a545f55777384264abc4e7039/transformed/jetified-circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nic/.gradle/caches/transforms-3/36325408cec9ed0dd0d5d908fc64e1b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nic/.gradle/caches/transforms-3/36325408cec9ed0dd0d5d908fc64e1b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nic/.gradle/caches/transforms-3/3b6ee467fac90b27cde8f39b2bba82a2/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nic/.gradle/caches/transforms-3/3b6ee467fac90b27cde8f39b2bba82a2/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/nic/.gradle/caches/transforms-3/49e7ac19d247264e5ea3dec22f6d785c/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:40:9-35
+	android:label
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:38:9-41
+	android:roundIcon
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:39:9-54
+	android:icon
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:37:9-43
+	android:allowBackup
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:36:9-35
+	android:theme
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:41:9-40
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:35:9-55
+activity#aminrahkan7.sipapp.Activitis.MainActivity
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:43:9-50:20
+	android:exported
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:43:19-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:48:27-74
+activity#aminrahkan7.sipapp.Activitis.CallActivity
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:51:9-54:59
+	android:label
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:53:13-61
+	android:theme
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:54:13-56
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:52:13-51
+service#org.abtollc.service.ABTOSipService
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:56:9-64:19
+	android:exported
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:59:13-37
+	android:stopWithTask
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:58:13-40
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:57:13-62
+intent-filter#action:name:org.abtollc.service.ABTOSipService+action:name:org.abtollc.service.SipConfiguration
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:60:13-63:29
+action#org.abtollc.service.ABTOSipService
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:61:25-74
+action#org.abtollc.service.SipConfiguration
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:62:17-79
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:62:25-76
+provider#org.abtollc.db.DBProvider
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:66:9-70:20
+	android:authorities
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:68:13-55
+	android:exported
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:67:13-53
+service#aminrahkan7.sipapp.IncomingCallService
+ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:72:9-76:19
+	android:enabled
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:75:13-35
+	android:exported
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml:73:13-48
+uses-sdk
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nic/.gradle/caches/transforms-3/f06aebf0b0c854b48adfbf120800f602/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nic/.gradle/caches/transforms-3/f06aebf0b0c854b48adfbf120800f602/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/nic/.gradle/caches/transforms-3/74292be9cb686a095a4a0d900254dd59/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/nic/.gradle/caches/transforms-3/74292be9cb686a095a4a0d900254dd59/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nic/.gradle/caches/transforms-3/f3644ad778acb0eb375e8afe4ed552de/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nic/.gradle/caches/transforms-3/f3644ad778acb0eb375e8afe4ed552de/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/nic/.gradle/caches/transforms-3/cb66e461fd9e99575bb56695f00506ab/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/nic/.gradle/caches/transforms-3/cb66e461fd9e99575bb56695f00506ab/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/nic/.gradle/caches/transforms-3/a32586e00cf6a571820e33c673775d10/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/nic/.gradle/caches/transforms-3/a32586e00cf6a571820e33c673775d10/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nic/.gradle/caches/transforms-3/ac87de689570b23ff7f65fd6b42a6b67/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nic/.gradle/caches/transforms-3/ac87de689570b23ff7f65fd6b42a6b67/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/nic/.gradle/caches/transforms-3/27061b85e2d5a3b43a0523a4635c520f/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/nic/.gradle/caches/transforms-3/27061b85e2d5a3b43a0523a4635c520f/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nic/.gradle/caches/transforms-3/4dc2d7de2e36c1331823605ddccab851/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nic/.gradle/caches/transforms-3/4dc2d7de2e36c1331823605ddccab851/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nic/.gradle/caches/transforms-3/e68bd84e89a1199c0e0bb7915ca54e8d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nic/.gradle/caches/transforms-3/e68bd84e89a1199c0e0bb7915ca54e8d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nic/.gradle/caches/transforms-3/d7bfb4d57ba25c58c1ed4e8afb52dc48/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nic/.gradle/caches/transforms-3/d7bfb4d57ba25c58c1ed4e8afb52dc48/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nic/.gradle/caches/transforms-3/131fc640a9fa001c570148d810d62306/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nic/.gradle/caches/transforms-3/131fc640a9fa001c570148d810d62306/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/nic/.gradle/caches/transforms-3/b66392aab3503f262d51176d47eb3cda/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nic/.gradle/caches/transforms-3/b66392aab3503f262d51176d47eb3cda/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] /Users/nic/.gradle/caches/transforms-3/49e7ac19d247264e5ea3dec22f6d785c/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/nic/.gradle/caches/transforms-3/49e7ac19d247264e5ea3dec22f6d785c/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nic/.gradle/caches/transforms-3/c43c9b4a545f55777384264abc4e7039/transformed/jetified-circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/nic/.gradle/caches/transforms-3/c43c9b4a545f55777384264abc4e7039/transformed/jetified-circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nic/.gradle/caches/transforms-3/36325408cec9ed0dd0d5d908fc64e1b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nic/.gradle/caches/transforms-3/36325408cec9ed0dd0d5d908fc64e1b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nic/.gradle/caches/transforms-3/ba5c646dbbc9b110b0bbc2352c403cb8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nic/.gradle/caches/transforms-3/ba5c646dbbc9b110b0bbc2352c403cb8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nic/.gradle/caches/transforms-3/a80264089550c9371acb9d2f7d48c329/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nic/.gradle/caches/transforms-3/a80264089550c9371acb9d2f7d48c329/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nic/.gradle/caches/transforms-3/f08aa1569562031982a90915b0d403c6/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nic/.gradle/caches/transforms-3/f08aa1569562031982a90915b0d403c6/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nic/.gradle/caches/transforms-3/1ed904a454eeea36eb9dca6ec8205ae4/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nic/.gradle/caches/transforms-3/1ed904a454eeea36eb9dca6ec8205ae4/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nic/.gradle/caches/transforms-3/cd9cd29673892a0e2248638b2c2d4621/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nic/.gradle/caches/transforms-3/cd9cd29673892a0e2248638b2c2d4621/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nic/.gradle/caches/transforms-3/4d096289f706d6915eed658ad09fa4f8/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nic/.gradle/caches/transforms-3/4d096289f706d6915eed658ad09fa4f8/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nic/.gradle/caches/transforms-3/490e1edacc633f6009a0c863dd73bafe/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nic/.gradle/caches/transforms-3/490e1edacc633f6009a0c863dd73bafe/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nic/.gradle/caches/transforms-3/aa032f33b1d34c08ed370a72f750a373/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nic/.gradle/caches/transforms-3/aa032f33b1d34c08ed370a72f750a373/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nic/.gradle/caches/transforms-3/3b6ee467fac90b27cde8f39b2bba82a2/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nic/.gradle/caches/transforms-3/3b6ee467fac90b27cde8f39b2bba82a2/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nic/.gradle/caches/transforms-3/063e8774a5ccd067d6cad35d29bac916/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nic/.gradle/caches/transforms-3/063e8774a5ccd067d6cad35d29bac916/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nic/.gradle/caches/transforms-3/9e495b0e9f7cb70c1ccd9a8c2fa3dac5/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nic/.gradle/caches/transforms-3/9e495b0e9f7cb70c1ccd9a8c2fa3dac5/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nic/.gradle/caches/transforms-3/56b1aaac53fce27f3a58c0d828bab898/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nic/.gradle/caches/transforms-3/56b1aaac53fce27f3a58c0d828bab898/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nic/Documents/Amin/Development/Source/Git/AminSoft/SipApp/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nic/.gradle/caches/transforms-3/3b6ee467fac90b27cde8f39b2bba82a2/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nic/.gradle/caches/transforms-3/3b6ee467fac90b27cde8f39b2bba82a2/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nic/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nic/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="aminrahkan7.sipapp">
 
 
@@ -14,7 +15,6 @@
     <uses-permission android:name="android.permission.USE_SIP"/>
     <uses-permission android:name="android.permission.CONFIGURE_SIP"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/><!-- android 4-->
-    <uses-permission android:name="android.permission.WRITE_SETTINGS"/><!-- android 4-->
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/><!-- speaker mode-->
     <uses-permission android:name="android.permission.VIBRATE"/>
 
@@ -40,7 +40,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".Activitis.MainActivity">
+        <activity android:name=".Activitis.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -54,7 +55,8 @@
 
         <service
             android:name="org.abtollc.service.ABTOSipService"
-            android:stopWithTask="true">
+            android:stopWithTask="true"
+            android:exported="false">
             <intent-filter>
                 <action android:name="org.abtollc.service.ABTOSipService" />
                 <action android:name="org.abtollc.service.SipConfiguration" />
@@ -63,10 +65,15 @@
 
         <provider
             android:name="org.abtollc.db.DBProvider"
-            android:authorities="org.abtollc.voiptest"></provider>
+            android:authorities="org.abtollc.voiptest"
+            android:exported="false">
+        </provider>
+
         <service
             android:name=".IncomingCallService"
-            android:enabled="true"></service>
+            android:exported="false"
+            android:enabled="true">
+        </service>
     </application>
 
 </manifest>
